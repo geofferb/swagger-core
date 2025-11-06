@@ -80,7 +80,7 @@ public class UserResource {
     @Operation(summary = "Delete user",
             description = "This can only be done by the logged in user.",
             responses = {
-                    @ApiResponse(responseCode = "200", description = "user deteled"),
+                    @ApiResponse(responseCode = "200", description = "User deleted"),
                     @ApiResponse(responseCode = "400", description = "Invalid username supplied"),
                     @ApiResponse(responseCode = "404", description = "User not found")})
     public Response deleteUser(
