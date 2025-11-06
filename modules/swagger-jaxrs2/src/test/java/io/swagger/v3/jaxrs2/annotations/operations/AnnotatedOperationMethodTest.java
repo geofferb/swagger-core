@@ -1116,7 +1116,7 @@ public class AnnotatedOperationMethodTest extends AbstractAnnotationTest {
                 "          type: string\n" +
                 "      responses:\n" +
                 "        \"200\":\n" +
-                "          description: user deteled\n" +
+                "          description: User deleted\n" +
                 "        \"400\":\n" +
                 "          description: Invalid username supplied\n" +
                 "        \"404\":\n" +
